@@ -19,8 +19,14 @@ namespace PjVentaHeredada
 
         private void btnContado_Click(object sender, EventArgs e)
         {
-            FrmContado frmContado = new FrmContado();   
+            FrmContado frmContado = new FrmContado();
             frmContado.ShowDialog();
+        }
+
+        private void btnCredito_Click(object sender, EventArgs e)
+        {
+            FrmCredito frmCredito = new FrmCredito();
+            frmCredito.ShowDialog();
         }
     }
 }
