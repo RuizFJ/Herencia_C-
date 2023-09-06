@@ -27,6 +27,7 @@ namespace PjVentaHeredada
         {
             FrmCredito frmCredito = new FrmCredito();
             frmCredito.ShowDialog();
+            //Dejando mensaje
         }
     }
 }
